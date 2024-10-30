@@ -1,7 +1,7 @@
 # Feed-Forward-MLP-Neural-Network
 Feed-forward multi-layer perceptron neural network for classification of the MNIST and Fashion MNIST datasets
 
-As part of my MEng degree, the report titled - coursework report delves into the construction and analysis of perceptron neural network-based models for solving logical functions and classifying images. In the first exercise, the report explores how perceptrons and multi-layer perceptrons can be configured to solve basic logic operations, including AND, NAND, OR, and XOR, with visualizations and truth tables illustrating the separability challenges.
+As part of my MEng degree, the report titled - coursework report.pdf, delves into the construction and analysis of perceptron neural network-based models for solving logical functions and classifying images. In the first exercise, the report explores how perceptrons and multi-layer perceptrons can be configured to solve basic logic operations, including AND, NAND, OR, and XOR, with visualizations and truth tables illustrating the separability challenges.
 
 In the second exercise, multi-layer perceptron (MLP) models are evaluated on the MNIST handwritten digits and fashion datasets. The report assesses the impact of various parameters, including learning rate, number of hidden neurons, and training epochs, on model accuracy. Notably, the best configuration for digit classification achieved 98.19% accuracy, while the fashion dataset saw reduced accuracy due to its increased complexity.
 
