@@ -6,3 +6,6 @@ As part of my MEng degree, the report titled - coursework report.pdf, delves int
 In the second exercise, multi-layer perceptron (MLP) models are evaluated on the MNIST handwritten digits and fashion datasets. The report assesses the impact of various parameters, including learning rate, number of hidden neurons, and training epochs, on model accuracy. Notably, the best configuration for digit classification achieved 98.19% accuracy, while the fashion dataset saw reduced accuracy due to its increased complexity.
 
 Future improvement recommendations include transitioning to convolutional neural networks (CNNs) for enhanced feature extraction and exploring dimensionality reduction via PCA, aiming to boost classification performance on more complex datasets.
+
+### NOTE ###
+The large training files for both MNIST and Fashion MNIST are not available in this repo as they exceed 25mbs
