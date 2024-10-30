@@ -2,11 +2,11 @@ from neural_network import NeuralNetwork
 import pandas as pd
 import numpy as np
 
-MNIST_train = pd.read_csv('data/MNIST/mnist_train.csv', header=None)
-MNIST_test = pd.read_csv('data/MNIST/mnist_test.csv', header=None)
+MNIST_train = pd.read_csv('data/MNIST/mnist_train_100.csv', header=None)
+MNIST_test = pd.read_csv('data/MNIST/mnist_test_10.csv', header=None)
 
-MNIST_fashion_train = pd.read_csv('data/MNIST_Fashion/fashion_mnist_train.csv', header=None)
-MNIST_fashion_test = pd.read_csv('data/MNIST_Fashion/fashion_mnist_test.csv', header=None)
+MNIST_fashion_train = pd.read_csv('data/Fashion_MNIST/fashion_mnist_train_1000.csv', header=None)
+MNIST_fashion_test = pd.read_csv('data/Fashion_MNIST/fashion_mnist_test_10.csv', header=None)
 
 learning_rate = 0.15  # 0.08 for MNIST Fashion dataset
 hidden_nodes = 1000
